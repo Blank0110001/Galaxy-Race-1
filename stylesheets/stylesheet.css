@@ -426,7 +426,7 @@ Small Device Styles
 
 canvas {
   position: absolute;
-  top: 70%; left: 35%;
+  top: 80%; left: 35%;
   margin: -100px 0 0 -100px;
   background-color:white;
 }
