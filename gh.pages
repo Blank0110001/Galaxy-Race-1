@@ -1,2 +1,7 @@
-var padding= 100px 100px 200px 200px;
-var canvas id ="myCanvas" width = 800px height =800px;
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.rect(20, 40, 50, 50);
+ctx.fillStyle = "#FF0000";
+ctx.fill();
+ctx.closePath();
