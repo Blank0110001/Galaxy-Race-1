@@ -1,6 +1,6 @@
 {
   "name": "Galaxy-race-1",
   "tagline": "",
-  "body": "# Welcome to Galaxy Race\r\nYou will enjoy the world's hardest game,the  game will intrigue you.",
+  "body": "# Welcome to Galaxy Race\r\nYou will enjoy the world's hardest game,the  game will intrigue you.\r\n\r\n`<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <title>Gamedev Canvas Workshop</title>\r\n    <style>\r\n    \t* { padding: 0; margin: 0; }\r\n    \tcanvas { background: #eee; display: block; margin: 0 auto; }\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<canvas id=\"myCanvas\" width=\"480\" height=\"320\"></canvas>\r\n\r\n\r\n<script>\r\n\tvar canvas = document.getElementById(\"myCanvas\");\r\nvar ctx = canvas.getContext(\"2d\");\r\nctx.beginPath();\r\nctx.rect(20, 40, 50, 50);\r\nctx.fillStyle = \"#FF0000\";\r\nctx.fill(0,0,0);\r\nctx.closePath();\r\nStatus API Training Shop Blog About\r\n\r\n</script>\r\n\r\n</body>\r\n</html>\r\n`",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
