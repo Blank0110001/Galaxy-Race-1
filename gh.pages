@@ -1,0 +1,2 @@
+var padding= 100px 100px 200px 200px;
+var canvas id ="myCanvas" width = 800px height =800px;
