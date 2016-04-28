@@ -423,3 +423,10 @@ Small Device Styles
   }
 
 }
+
+canvas {
+  position: fixed;
+  top: 30%; left: 45%;
+  margin: -100px 0 0 -100px;
+  background-color:black;
+}
