@@ -23,7 +23,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
-  padding: 10;
+  padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
@@ -426,7 +426,7 @@ Small Device Styles
 
 canvas {
   position: absolute;
-  top: 70%; left: 45%;
+  top: 70%; left: 35%;
   margin: -100px 0 0 -100px;
   background-color:white;
 }
