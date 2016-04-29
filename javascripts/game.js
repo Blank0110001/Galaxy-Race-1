@@ -16,20 +16,3 @@ function drawBall(){
 	ctx.closePath();
 	}
 
-var meanOrbitalVelocity = Math.sqrt(focusedObject.mass / Math.sqrt(Math.pow(focusedObject.x - x, 2) + Math.pow(focusedObject.y - y, 2)))
-
-		var velX = (function () {
-			var velX = focusedObject.velX;
-
-			velX += Math.cos(deg + Math.PI / 2) * meanOrbitalVelocity;
-
-			return velX;
-		})();
-
-		var velY = (function () {
-			var velY = focusedObject.velY;
-
-			velY += Math.sin(deg + Math.PI / 2) * meanOrbitalVelocity;
-
-			return velY;
-		})();
