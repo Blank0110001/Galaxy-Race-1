@@ -8,6 +8,6 @@ ctx.closePath();
 Mover.prototype.display = function() {
   stroke(0);
   strokeWeight(2);
-  fill(255, 255, 255, 127);
+  fill(255, 0, 0, 0);
   ellipse(this.position.x, this.position.y, this.mass*16, this.mass*16);
 };
