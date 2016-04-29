@@ -8,7 +8,7 @@ ctx.closePath();
 var ballRadius=20
 var ball= draw(){
   ctx.beginPath();
-  ctx.ellipse(110,110,46,73)
+  ctx.ellipse(90,110,46,73)
   ctx.fillStyle = "#FF0000";
 ctx.fill(255,0,0);
 }
