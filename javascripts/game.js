@@ -7,8 +7,11 @@ ctx.fill(255,0,0);
 ctx.closePath();
 
 function = drawBall() {
-  ctx.begin path();
-  ctx.ellipse(110,110,10,10)
-}
+  ctx.beginPath();
+  ctx.ellipse(110,110,45,80);
+  ctx.fillStyle = "#FF0000";
+  ctx.fill(255,0,0);
+  ctx.closePath (); 
+};
 
 
