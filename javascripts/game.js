@@ -5,13 +5,10 @@ ctx.rect(100,100, 45, 70);
 ctx.fillStyle = "#FF0000";
 ctx.fill(255,0,0);
 ctx.closePath();
-
-function = drawBall() {
+var ballRadius=20
+var ball= draw(){
   ctx.beginPath();
-  ctx.ellipse(0,0,canvas.width,canvas.height);
+  ctx.ellipse(110,110,46,73)
   ctx.fillStyle = "#FF0000";
-  ctx.fill(255,0,0);
-  ctx.closePath (); 
-};
-
-
+ctx.fill(255,0,0);
+}
