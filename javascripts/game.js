@@ -6,6 +6,10 @@ ctx.fillStyle = "#FF0000";
 ctx.fill(255,0,0);
 ctx.closePath();
 
-var points = [{x:110, y:110}, {x:115, y:98}, {x:120, y:94}];
-var len = points.length;
-
+var point= getPoint();
+var ctx =canvas.getContext("2d");
+ctx.beginPath();
+ctx.point(110,110);
+ctx.fillStyle = "#FF0000";
+ctx.fill(255,0,0);
+ctx.closePath ();
