@@ -151,7 +151,7 @@ function draw(){
 	}
 
 setInterval(draw,10);
-var canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("gameCanvas");
 var ctx = canvas.getContext("2d");
 ctx.beginPath();
 ctx.rect(100,100, 41, 70);
