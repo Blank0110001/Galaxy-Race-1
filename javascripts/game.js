@@ -1,11 +1,11 @@
 var canvas = document.getElementById("gameCanvas");
- +var ctx = canvas.getContext("2d");
- +ctx.beginPath();
- +ctx.rect(20, 40, 400, 400);
- +ctx.fillStyle = "#FF0000";
- +ctx.fill(0,0,0);
- +ctx.closePath();
- var Attractor = function(){
+var ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.rect(20, 40, 400, 400);
+ctx.fillStyle = "#FF0000";
+ctx.fill(0,0,0);
+ctx.closePath();
+var Attractor = function(){
 this.position = new PVector(width/2,height/2);
 this.mass=20;
 this.G=7.5;
