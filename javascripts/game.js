@@ -107,4 +107,3 @@ var draw = function() {
     }
 };
 
- setInterval(draw,10);
